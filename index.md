@@ -1,2 +1,6 @@
-- [Deepnote@github.com](https://github.com/dreamerc/deepnote)
-- [Blog](blog/index.md)
+---
+# Feel free to add content and custom Front Matter to this file.
+# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
+
+layout: home
+---

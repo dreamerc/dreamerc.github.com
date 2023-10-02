@@ -1,8 +1,9 @@
-theme: minima 
 title: DreamerC's Page
-description: Index Page to the-up-and-down.
+description: Index Page to the-up-and-down. 
+github_username:  dreamerc
+
+markdown: kramdown
+theme: minima
 minima:
   skin: auto
   date_format: "%Y-%m-%d %H:%M"
-  social_links:
-    - { platform: github,          user_url: "https://github.com/dreamerc" }
