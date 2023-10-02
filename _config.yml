@@ -1,6 +1,8 @@
 theme: minima 
-title: dreamerc.github.io
-description: The Public Archive Page
-social_links:
+title: DreamerC's Page
+description: Index Page to the-up-and-down.
+minima:
+  skin: auto
+  date_format: "%Y-%m-%d %H:%M"
+  social_links:
     - { platform: github,          user_url: "https://github.com/dreamerc" }
-skin: dark
