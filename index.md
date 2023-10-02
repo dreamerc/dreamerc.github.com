@@ -1,3 +1,2 @@
-- [Github](https://github.com/dreamerc)
 - [Deepnote@github.com](https://github.com/dreamerc/deepnote)
 - [Blog](blog/index.md)
