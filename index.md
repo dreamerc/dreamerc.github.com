@@ -1,7 +1,7 @@
 ---
 layout: home
 ---
-# This Pages
+
 - Blogs : [DreamerC's Backyard](https://dreamerc.blogspot.com/) , [DreamerC's Pages at github.io (Here)](https://dreamerc.github.io/)
 - Documents : [Deep Note (,more details)](https://github.com/dreamerc/deepnote)
 - Side Projects : 
