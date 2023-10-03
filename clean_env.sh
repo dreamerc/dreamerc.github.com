@@ -1,3 +1,3 @@
-rm -ri _site
-rm -ri .sass-cache
-rm -ri .ruby-docker-id
+rm -rf _site
+rm -rf .sass-cache
+rm -rf .ruby-docker-id

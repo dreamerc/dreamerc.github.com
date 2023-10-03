@@ -1,10 +1,10 @@
 ---
 layout: post
-title: Github Pages and Jekyll quick note
+title: Github Pages and Jekyll quick setup note
 date: 2023-10-03 08:00:00 +0800
 categories: note
 ---
--  Dockerfile and Build script
+#  Dockerfile and Build script
 
 ```dockerfile
 # Ruby + Jekyll + Github-Pages at 20231003
@@ -21,14 +21,14 @@ docker images ruby:latest | tr -s ' ' | grep ruby | cut -f3 -d" " > .ruby-docker
 docker build --tag localdev-github-pages:latest .
 ```
 
-- (optional) create a new Jekyll site
+# (optional) create a new Jekyll site
 
 ```bash
 docker run -it --entrypoint=/bin/bash --volume="$PWD:/srv/jekyll" localdev-github-pages -i
 jekyll new --skip-bundle .
 ```
 
-- run Jekyll serve for Dev (or run `./run_local.sh`)
+# run Jekyll serve for Dev (or run `./run_local.sh`)
 
 ```bash
 docker run -it --volume="$PWD:/srv/jekyll" -p 4000:4000 localdev-github-pages
@@ -38,7 +38,7 @@ You can start to edit file to test the output.
 Open http://localhost:4000 to get the result.
 Ctrl + C to end.
 
-- Make clean and push to Github Pages
+# Make clean and push to Github Pages
 
 ```bash
 ./clean_env.sh

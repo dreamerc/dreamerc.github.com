@@ -7,3 +7,4 @@ theme: minima
 minima:
   skin: auto
   date_format: "%Y-%m-%d %H:%M"
+exclude: template/
