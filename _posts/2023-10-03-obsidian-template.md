@@ -12,7 +12,7 @@ categories: update
 ---
 layout: post
 title: title
-date: "{{date}} {{time}} +0800"
+date: "{{ "{{" }} date }} {{ "{{"}} time }} +0800"
 categories: update
 ---
 - ...
@@ -23,3 +23,6 @@ categories: update
 ```yml
 exclude: template/
 ```
+
+- escape Liquid template tags
+	- `{{ "{{" }} date }}` =  `{{"{{"}} "{{"{{"}}" }} date }}`
