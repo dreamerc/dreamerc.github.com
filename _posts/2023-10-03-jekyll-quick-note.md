@@ -28,7 +28,7 @@ docker run -it --entrypoint=/bin/bash --volume="$PWD:/srv/jekyll" localdev-githu
 jekyll new --skip-bundle .
 ```
 
-# run Jekyll serve for Dev (or run `./run_local.sh`)
+# run Jekyll serve for Dev (or run `./1_run_local.sh`)
 
 ```bash
 docker run -it --volume="$PWD:/srv/jekyll" -p 4000:4000 localdev-github-pages
@@ -41,7 +41,7 @@ Ctrl + C to end.
 # Make clean and push to Github Pages
 
 ```bash
-./clean_env.sh
+./2_clean_env.sh
 git add *
 git commit -m 'this is a update commit.'
 git push
